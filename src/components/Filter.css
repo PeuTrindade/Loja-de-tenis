@@ -1,0 +1,91 @@
+.containerAll {
+    display: flex;
+}
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.produto {
+    width: 200px;
+    height: 200px;
+    font-family: arial;
+    margin-right: 15px;
+}
+.produto img {
+    width:100px;
+    margin-left: 50px;
+}
+.preco {
+    margin-top: 5px;
+}
+.produto button {
+    margin-top: 17px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.produto button:hover {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+.filter-container {
+    margin-top: 50px;
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    margin-left: 15px;
+    font-family: arial;
+    margin-right: 30px;
+}
+.filter-header {
+    display: flex;
+    justify-content: space-around;
+}
+.filter-header h3 {
+    color: orangered;
+}
+.filtros {
+    margin-left:38px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.filtros h3 {
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all ease 0.1s;
+}
+.filtros h3:hover {
+    color: orangered;
+}
+.destaques {
+    display: flex;
+    flex-direction: column;
+}
+.destaques h5 {
+    margin-bottom: 5px;
+    background-color: white;
+    border: 2px solid black;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 38px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+}
+.destaques h5:hover {
+    background-color: orangered;
+    color: white;
+}
+@media screen and (max-width:403px){
+    .filter-container{
+        display: none;
+    }
+    .produtos {
+        display: flex;
+        justify-content: center;
+    }
+}

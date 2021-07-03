@@ -1,0 +1,17 @@
+.btn-prod {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    background-color: white;
+    width: 100px;
+    height:30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.btn-prod:hover {
+    background-color: orangered;
+    color: white;
+}
